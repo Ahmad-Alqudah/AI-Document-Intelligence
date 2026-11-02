@@ -1,0 +1,6 @@
+# PROJECT 01 — STEP 07 — STREAMLIT UPLOAD TEST
+# FILE: streamlit_test.txt
+
+Project Phoenix started in September 2026.
+The project manager is Michael Brown.
+The total project budget is 500,000 USD.

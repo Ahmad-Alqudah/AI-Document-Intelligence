@@ -1,0 +1,29 @@
+
+# ============================================================
+# PROJECT 01 — AI DOCUMENT INTELLIGENCE
+# FILE: .dockerignore
+# PURPOSE: Exclude local, private and temporary files
+#          from Docker build context.
+# ============================================================
+
+.git
+.gitignore
+.env
+.venv
+venv
+__pycache__
+*.pyc
+.pytest_cache
+.streamlit/secrets.toml
+
+data/uploads/
+data/faiss_index/
+data/faiss_index.backup/
+data/faiss_index.tmp-*/
+
+tests/
+evaluation/
+samples/
+
+*.log
+.DS_Store

@@ -1,0 +1,56 @@
+
+# ============================================================
+# PROJECT 01 — AI DOCUMENT INTELLIGENCE
+# STEP 09 — PART 01
+# FILE: .gitignore
+# PURPOSE: Exclude generated, local and sensitive files.
+# ============================================================
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest and test coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local FAISS vector index
+data/faiss_index/
+
+# User-uploaded documents
+data/uploads/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,54 @@
+{
+    "total_questions": 3,
+    "retrieval_hit_at_k": 1.0,
+    "answer_accuracy": 1.0,
+    "average_latency_seconds": 0.775,
+    "top_k": 3,
+    "results": [
+        {
+            "id": "Q01",
+            "question": "How many days of annual leave do employees receive?",
+            "expected_answer": "21",
+            "actual_answer": "21 days of paid annual leave per year.",
+            "expected_source": "employee_handbook.docx",
+            "retrieved_sources": [
+                "employee_handbook.docx",
+                "employee_handbook.docx",
+                "company_policy.txt"
+            ],
+            "retrieval_hit": true,
+            "answer_correct": true,
+            "latency_seconds": 2.058
+        },
+        {
+            "id": "Q02",
+            "question": "Who is the manager of Project Falcon?",
+            "expected_answer": "Sarah Johnson",
+            "actual_answer": "The manager of Project Falcon is Sarah Johnson.",
+            "expected_source": "project_test.txt",
+            "retrieved_sources": [
+                "streamlit_test.txt",
+                "project_test.txt",
+                "company_policy.txt"
+            ],
+            "retrieval_hit": true,
+            "answer_correct": true,
+            "latency_seconds": 0.149
+        },
+        {
+            "id": "Q03",
+            "question": "Who is the manager of Project Phoenix?",
+            "expected_answer": "Michael Brown",
+            "actual_answer": "The manager of Project Phoenix is Michael Brown.",
+            "expected_source": "streamlit_test.txt",
+            "retrieved_sources": [
+                "streamlit_test.txt",
+                "project_test.txt",
+                "employee_handbook.docx"
+            ],
+            "retrieval_hit": true,
+            "answer_correct": true,
+            "latency_seconds": 0.118
+        }
+    ]
+}

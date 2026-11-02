@@ -1,0 +1,12 @@
+
+# ============================================================
+# PROJECT 01 — AI DOCUMENT INTELLIGENCE
+# STEP 06 — PART 03
+# TEST DOCUMENT — Upload and Retrieval
+# FILE: data/sample_documents/project_test.txt
+# ============================================================
+
+ABC Technology Company launched Project Falcon in 2026.
+The project manager is Sarah Johnson.
+The project budget is 250,000 USD.
+The project deadline is December 15, 2026.
